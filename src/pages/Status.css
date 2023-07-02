@@ -1,0 +1,44 @@
+.img-user-profile{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+/*.status-button-submit{
+    margin-left: auto;
+}*/
+.answer-tweet-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+/*    flex-direction: column;*/
+    padding: 0.75rem;
+}
+.answer-tweet-form textarea{
+    resize: none;
+}
+.answer-tweet-form button{
+    background-color: var(--twitter-blue);
+    border-radius: 9999px;
+    padding: 0.75rem;
+/*    display: flex;
+    justify-content: center;*/
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 0;
+}
+.answer-tweet-form textarea{
+    flex:1;
+    background-color: #121214;
+    border: 0;
+    outline: 0;
+    padding: 0.75rem;
+    color: #E1E1E6;
+    margin-right: auto;
+}
+
+.answer-tweet-form label{
+    display: flex;
+    align-items: center;
+}
